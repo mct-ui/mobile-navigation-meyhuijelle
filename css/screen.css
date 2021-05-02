@@ -901,11 +901,11 @@ a:focus {
   /* transition: opacity 0.25s; */
 }
 
-/* .has-mobile-nav .c-page {
+.has-mobile-nav .c-page {
   background-color: yellow;
   transform: translateX(25%);
-  transition: 5s;
-} */
+  transition: 0.5s;
+}
 
 .has-mobile-nav .c-mobile-nav {
   /* display: block; */
@@ -925,7 +925,12 @@ a:focus {
 .c-mobile-nav__bg {
   opacity: 0.5;
   position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: #202024;
+  transition: 0.25s ease;
 }
 
 .has-mobile-nav .c-mobile-nav__bg {
